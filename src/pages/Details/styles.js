@@ -15,9 +15,24 @@ export const Container = styled.div`
         overflow-y: auto;
         padding: 64px 0;
 
+        
     }
 `
 
 export const Content = styled.div`
+        max-width: 1115px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
 
+        h1 {
+            margin-top: 24px;
+            font-size: 36px;
+            font-weight: 500;
+        }
+        
+        p {
+            font-size: 16px;
+            text-align: justify;
+        }
 `
