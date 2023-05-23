@@ -1,4 +1,4 @@
-import { Container } from './styles'
+import { Container, Profile } from './styles'
 
 export function Header(){
     return(
@@ -12,7 +12,9 @@ export function Header(){
                     <strong>Gabriel Barroncas</strong>
                     <span>sair</span>
                 </div>
+                
                 <img src="https://github.com/Barroncas1.png" alt="foto do usuário" />
+
             </Profile>
         </Container>
     )
