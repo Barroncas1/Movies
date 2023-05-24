@@ -25,7 +25,9 @@ export const Content = styled.div`
         display: flex;
         flex-direction: column;
 
-        
+        .tags {
+            margin: 40px 0;
+        }
         p {
             font-size: 16px;
             text-align: justify;
