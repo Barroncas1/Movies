@@ -7,7 +7,7 @@ export default {
         
         BG_INPUT: "#262529",
         COLOR_INPUT: "#948F99",
-
+        C_I:"#999591",
         PINK: "#FF859B",
         PINK_100:"rgba(255,133,155,0.05)",
         WHITE: "#F4EDE8",
