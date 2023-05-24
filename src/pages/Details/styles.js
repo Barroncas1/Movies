@@ -25,11 +25,6 @@ export const Content = styled.div`
         display: flex;
         flex-direction: column;
 
-        h1 {
-            margin-top: 24px;
-            font-size: 36px;
-            font-weight: 500;
-        }
         
         p {
             font-size: 16px;
