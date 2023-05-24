@@ -4,6 +4,7 @@ import { Header } from "../../components/Header";
 import { Button } from "../../components/Button";
 import {AiOutlinePlus} from "react-icons/ai"
 import { Note } from "../../components/Note";
+import { Scrollbar } from "../../components/Scrollbar";
 
 export function Home(){
     return(
@@ -26,6 +27,15 @@ export function Home(){
                             {id: '3', name: "Família"},
                         ]
                     }} />
+                    <Note data={{
+                        title: "Interestelar",
+                        tags: [
+                            {id: '1', name: "Ficção científica"},
+                            {id: '2', name: "Drama"},
+                            {id: '3', name: "Família"},
+                        ]
+                    }} />
+                    
                 </Content>
             </main>
         </Container>
