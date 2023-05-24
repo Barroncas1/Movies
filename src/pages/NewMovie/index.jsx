@@ -5,6 +5,7 @@ import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
 import { Tags } from '../../components/Tags'
 import { NoteItem } from "../../components/NoteItem";
+import { Button } from "../../components/Button"
 
 export function NewMovie(){
     return(
@@ -22,6 +23,10 @@ export function NewMovie(){
                 <div className="tags">
                     <NoteItem value="React" />
                     <NoteItem isNew placeholder="Nova tag" />
+                </div>
+                <div className="buttons">
+                    <Button title="Excluir filme" disabled/>
+                    <Button title="Salvar alterações" />
                 </div>
             </main>
         </Container>
