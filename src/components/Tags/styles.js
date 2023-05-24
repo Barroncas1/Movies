@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.span`
-    background-color: ${({theme}) => theme.COLORS.BG_TAGS};
+    background-color: ${({theme}) => theme.COLORS.LETTER};
     font-size: 12px;
     border-radius: 8px;
     padding: 8px 16px;

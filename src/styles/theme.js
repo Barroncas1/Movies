@@ -9,6 +9,7 @@ export default {
         COLOR_INPUT: "#948F99",
 
         PINK: "#FF859B",
+        PINK_100:"rgba(255,133,155,0.05)",
         WHITE: "#F4EDE8",
 
         BG_TAGS: "#282124"
