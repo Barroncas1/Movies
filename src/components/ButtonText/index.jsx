@@ -8,7 +8,7 @@ export function ButtonText({title, isActive = false, ...rest}){
         isActive={isActive}
         {...rest}
      >
-        <BsArrowLeft />
+       {isActive ? <BsArrowLeft /> : ""}
         {title}
      </Container>   
     )

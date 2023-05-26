@@ -10,7 +10,7 @@ export function Perfil(){
     return(
         <Container>
             <header>
-                <ButtonText title="Voltar"/>
+                <ButtonText title="Voltar" isActive/>
             </header>
 
             <Form>
