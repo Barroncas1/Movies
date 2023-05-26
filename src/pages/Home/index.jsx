@@ -5,6 +5,7 @@ import { Button } from "../../components/Button";
 import {AiOutlinePlus} from "react-icons/ai"
 import { Note } from "../../components/Note";
 import { Scrollbar } from "../../components/Scrollbar";
+import { Link } from "react-router-dom";
 
 export function Home(){
     return(
@@ -13,7 +14,7 @@ export function Home(){
             <main>
                 <Hmain>
                     <h1>Meus Filmes</h1>
-                    <NewMovie>
+                    <NewMovie to="/new">
                         <AiOutlinePlus />
                         Adicionar filme
                     </NewMovie>

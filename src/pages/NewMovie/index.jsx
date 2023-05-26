@@ -6,13 +6,16 @@ import { Textarea } from "../../components/Textarea";
 import { Tags } from '../../components/Tags'
 import { NoteItem } from "../../components/NoteItem";
 import { Button } from "../../components/Button"
+import { Link } from "react-router-dom";
 
 export function NewMovie(){
     return(
         <Container>
             <Header />
             <main>
-                <ButtonText title="Voltar" isActive/>
+                <Link to="/">
+                    <ButtonText title="Voltar" isActive/>
+                </Link>
                 <h1>Novo filme</h1>
                 <div className="inputs">
                     <Input placeholder="Título"/>

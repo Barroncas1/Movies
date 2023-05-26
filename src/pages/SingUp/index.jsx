@@ -15,7 +15,9 @@ export function SingUp(){
                 <Input icon={FiMail} placeholder="E-mail" />
                 <Input icon={FiLock} placeholder="Senha" />
                 <Button title="Cadastrar" />
-                <ButtonText title="Voltar para o login" />
+                <Link to="/">
+                    Voltar para o login
+                </Link>
 
             </Form>
             
