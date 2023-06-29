@@ -11,7 +11,7 @@ export function Perfil(){
         <Container>
             <header>
                 <Link to="/">
-                    <ButtonText title="Voltar" isActive/>
+                    <ButtonText title="Voltar" $isActive/>
                 </Link>
             </header>
 

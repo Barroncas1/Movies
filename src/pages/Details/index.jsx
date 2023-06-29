@@ -13,7 +13,7 @@ export function Details(){
             <Header />
             <main>
                 <Content>
-                    <ButtonText title="Voltar" isActive/>
+                    <ButtonText title="Voltar" $isActive/>
                     <Title title="Interestellar"/>
 
                     <div className="tags">

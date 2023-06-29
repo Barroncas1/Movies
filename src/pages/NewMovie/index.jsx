@@ -14,7 +14,7 @@ export function NewMovie(){
             <Header />
             <main>
                 <Link to="/">
-                    <ButtonText title="Voltar" isActive/>
+                    <ButtonText title="Voltar" $isActive/>
                 </Link>
                 <h1>Novo filme</h1>
                 <div className="inputs">
